@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    
+<header>
+    <div class='top-header'>
+    <div class='info'>
+    <span>Televendas 4000-0000</span>
+    <span>Encontre uma loja</span>
+    <span>Atendimento</span>
+    </div>
+</header>
+ 
+<div id='container'>  
+    <img src="Imagens/logo.png" alt="" id="img-logo">
+    <div id="box-busca">
+    <input type="text" id="box-search" placeholder="Encontre aqui seus produtos">
+    <button id='btn-busca'>ok</button>
+</div>    
+
+<div id='lista'>
+        <img src="Imagens/presente.png" alt="" id="img-presente"> 
+        <div class='text'>
+               <p>Lista de Presentes</p>
+</div>        
+</div>
+
+<div id='login'>
+        <img src="Imagens/login.png" alt="img-login" id='img-login'>
+        <div class='text-a'>
+              <p>Olá! Faça seu login</p>  
+              <p class='conta'>Minha Conta</p> 
+</div>
+            
+<div class='carrinho-compras'></div>
+        <img src="Imagens/carrinho.png" alt="" id='img-carrinho'>
+</div>
+</div>
+
+<div class="menu-header"> 
+    <select name="Produtos" id="">
+        <option value="">Selecione o Produto</option>
+        <option value="">Geladeiras</option>
+        <option value="">Computadores</option>
+        <option value="">Celulares</option>
+        <option value="">Móveis</option>
+        <option value="">Games</option>
+        <option value="">Suprimentos</option>
+        <option value="">Brinquedos</option>
+        <option value="">Utensílios</option>        
+        </select> 
+        
+        <div class='navigation'>           
+             <a class="chamadas">Peça seu Cartão</a>            
+             <a class="chamadas">Venda seus Produtos</a>
+             <a class="chamadas">Chame um vendedor</a>
+             <a class="chamadas">Ofertas Anunciadas</a>
+             <a class="chamadas">Cupons</a>
+        </div> 
+</div>
+
+
+<div class='container-banner'> 
+    <div class='banner'>
+        <img src="Images-banner1/note.jpg" alt="" class="img-banner1">
+        <p class='descrition'> Notebook</p>
+        </div> 
+        <div class='banner'>
+            <img src="Images-banner1/geladeira.jpg" alt="" class="img-banner1">
+            <p class='descrition'> Eletrodoméstico</p>
+            </div>
+            <div class='banner'>
+                <img src="Images-banner1/celular.jpg" alt="" class="img-banner1">
+                <p class='descrition'> Celular</p>
+                </div> 
+                <div class='banner'>
+                    <img src="Images-banner1/ferramentas.jpg" alt="" class="img-banner1">
+                    <p class='descrition'> Ferramentas</p>
+                    </div> 
+                    <div class='banner'>
+                        <img src="Images-banner1/frete.png" alt="" class="img-banner1">
+                        <p class='descrition'> Frete Grátis</p>
+                        </div> 
+                        <div class='banner'>
+                            <img src="Images-banner1/qrcode.png" alt="" class="img-banner1">
+                            <p class='descrition'> Seu APP</p>
+                            </div> 
+                            <div class='banner'>
+                                <img src="Images-banner1/games.jpg" alt="" class="img-banner1">
+                                <p class='descrition'> Games</p>
+                                </div>          
+    </div>
+
+
+<img src="Imagens/banner.png" alt=""id='desconto-em-destaque'>
+
+
+<div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Imagens-carousel/bannerA.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagens-carousel/bannerB.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagens-carousel/bannerC.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>    
+</div>
+
+<div id="pic">
+  <img src="Imagens/banner-promocional.png" alt="" id='banner-picpay'>  
+</div>
+
+
+
+    
+   
+
+
+
+
+    
+</body>
+</html>
