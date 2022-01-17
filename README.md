@@ -13,7 +13,7 @@ Tabela de conteúdos
    * Tela responsiva
 <!--te-->
 
-[![Netlify Status]()
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a0ce1c87-fa1d-4542-9c1f-a1935dc81035/deploy-status)](https://app.netlify.com/sites/e-commerce-estudo/deploys)
 
 ### 🛠 Tecnologias
 HTML, CSS e Bootstrap
