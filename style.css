@@ -8,20 +8,20 @@
 header{                /*header Geral */
     display: flex;
     flex-direction: column;
-
 }
  /*-------------------------DIV LINKS TOPO------------------------- */
 .top-header{
     height: 8vh;
+    min-height: 50px;
     background-color: rgb(0, 0, 0);  
 }
 .info{
-    margin-left: 260px;  
+    margin-left: 17%;  
     padding: 15px;
 }
 span{
     margin-left: 3vw;
-    font-size: 14px;
+    font-size: 1rem;
     font-family: arial sans-serif;
     color: #ffffff;
 }
@@ -29,9 +29,9 @@ span{
 #container{
     background-color: rgb(0, 0, 0);
     height: 11vh;
+    min-height: 80px;
     width: 100%;
     display: flex ; 
-
 }
 #img-logo{
     margin-top: -30px;
@@ -43,29 +43,23 @@ span{
     display: flex;
     margin-left: 4vw;
 }
+
 #box-search{
     height: 46px;  
     width: 30vw;
     border-radius: 20px 0px 0px 20px;
     padding: 0px 0px 0px 20px;
 }
+
 #btn-busca{
+    font-size: .1rem;
     width: 50px;
     height:46px ;
     border-radius: 0px 10px 10px 0px;
     background-color: #e66a18;
 }
   /*----------------DIV LISTA DE PRESENTES---------------------------------- */
-#lista{
-    margin-top: 5px;
-    display: flex;
-    margin-left: 3.5vw;
-    height: 46px;
-    width: 110px;
-}
-#img-presente{
-    height: 4vh;
- }
+
  .text{
     margin-top: -6px;
     color: #ffffff;
@@ -73,7 +67,7 @@ span{
  }
   /*---------------- DIV LOGIN---------------------------------- */
   #login{
-    margin-left: 2vw;
+    margin-left: 8vw;
     display: flex;
     justify-content: center;
     height: 46px;
@@ -81,44 +75,83 @@ span{
 }
 #img-login{
     height: 5vh;
+    min-height: 55px;
     margin-left: 1vw;
  }
+ @media screen and (max-width:1050px) {
+    #img-login{
+        margin-left: -70px;
+    }
+} 
+@media screen and (max-width:760px) {
+    #img-login{
+        margin-left: -30px;
+    }
+} 
+@media screen and (max-width:760px) {
+    #img-login{
+        display: none;
+    }
+} 
  .text-a{
     margin-top: 2px;
     color: #ffffff;
     margin-left: 0.5vw;
  }
+ @media screen and (max-width:760px) {
+    .text-a{
+        margin-left: -30px;
+    }
+} 
  .conta{
     margin-top: -15px;
     color: #e66a18;
+    width: 100%;
  }
+ @media screen and (max-width:760px) {
+    .conta{
+        width: 100px;
+    }
+} 
   /*--------------------------IMAGEM CARRINHO DE COMPRAS------------------------ */
-#img-carrinho{
-    margin-left: 2.5vw;
+#carrinho{
+    margin-left: 4.5vw;
     height: 5vh;
+    min-height: 45px;
     width: 42px;
 }
+@media screen and (max-width:760px) {
+    #carrinho{
+        margin-left: 0px;
+    }
+} 
+
   /*--------------------------SELECIONE PRODUTO E LINKS------------------------ */
   select{
       margin-left: 20px;
       font-weight: bold;
   }
-.menu-header{
-    display: flex;
-    margin-top: 6px;
-    background-color: rgb(255, 255, 255);
-    height: 6vh;
-    cursor: pointer;
-}
-.navigation{
+.batata{
     display: flex;
     align-items: center;
+}
+
+.menu-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 6vh;
+    min-height: 50px;
+    cursor: pointer;
+}
+.navigation{  
     font-weight: bold;
     color: #000000;
 }
 .chamadas{
-    display: flex;
-    margin-left: 7vw;
+    padding: 7px;
+    margin-left: 5px;
     color: #000000;
     font-size: 14px;
 }
@@ -127,29 +160,31 @@ span{
     display: flex;
     justify-content: space-around;
     background-color: rgb(43, 26, 26);
-    height: 140px;
+    height: 27vh;
+    min-height: 120px;
 }
 .banner{
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90px;
-    height: 90px;
+    text-align: center;    
     border-radius: 50%;
 }
 .banner :hover{        
     -webkit-transform: scale(1.2);
        transform: scale(1.2)	
  }
-.descrition{  
+.descrition{ 
     margin-top: 6px;  
     height: 5vh;
     color: #ffffff;
     font-weight: bold;
 }
 .img-banner1{
-    width: 90px;
+    width: 10vw;
+    height: 17vh;
+    min-height: 70px;
     border-radius: 100%;
 
 }
@@ -167,7 +202,7 @@ body{
 }
 
 #banner-picpay{
-    margin-top: 5px;
+    margin-top: 10px;
     border-radius: 20px;
     height: 130px;
     width: 80%;
@@ -180,6 +215,12 @@ body{
     margin-top: 15px;
     -webkit-transform: scale(1.2);
        transform: scale(1.2)       
+}
+
+footer{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 
