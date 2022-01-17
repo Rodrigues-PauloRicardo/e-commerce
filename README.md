@@ -1,24 +1,22 @@
-# Meu portifólio
+# e-commerce
 
-<h2>Portifólio criado com objetivo de aprendizado e apresentação a quem interessar.</h2>
+<h2>landing-page criado com objetivo de aprendizado .</h2>
 
-<h2>🚧 Status:  🚀 Em construção...  🚧.</h2>
+<h2> Status:  🚀 objetivo concluído .</h2>
  
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre](#Sobre)
-   * [Minhas Redes](#redes)
-   * [Meus Projetos](#project)
-   * [Minhas Skills](#title-skills)
-   * [Estudando...](#title-learning)
-   * [Apresentação](#apresent)
+   * Box de busca
+   * Imagens Hover
+   * Carousel de Imagens com Bootstrap
+   * Tela responsiva
 <!--te-->
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0a8ce824-9217-47e1-8b45-14d7e612ca32/deploy-status)](https://portifolio-pauloricardo.netlify.app/)
+[![Netlify Status]()
 
 ### 🛠 Tecnologias
-HTML, CSS e Javascript
+HTML, CSS e Bootstrap
 
 
 <h2>MIT License</h2>
